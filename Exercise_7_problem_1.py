@@ -61,6 +61,10 @@ import matplotlib.pyplot as plt
 plt.scatter(x,y,s=50,c='black', cmap='rainbow', edgecolor='red')
 
 # Add labels and title
+plt.title("My random candy points")
+plt.xlabel("X-labels")
+plt.ylabel("Y-labels")
+plt.show()
 # YOUR CODE HERE 4
 
 # Save the plot as a png file:
